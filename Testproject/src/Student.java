@@ -1,4 +1,5 @@
-public class Test2 {
+
+public class Student {
      int rollno;
      String name;
      void insertRecord(int r, String n)
@@ -11,11 +12,11 @@ public class Test2 {
        System.out.println(rollno +""+ name);
      }
 }
-class Test
+class Teststudent
 {    public static void main(String[] args) {
 		 
-	Test2 s1=new Test2();
-	Test2 s2=new Test2();
+		Student s1=new Student();
+		Student s2=new Student();
 		
 		s1.insertRecord(113, "push");
 		s2.insertRecord(114, "pallu");
